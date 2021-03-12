@@ -91,7 +91,7 @@ export const CallProvider = ({ children }) => {
     });
 
     const options = {
-      url: `https://devrel.daily.co/${roomInfo?.name}`,
+      url: `https://zeemee-team.daily.co/${roomInfo?.name}`,
       userName,
     };
     if (roomInfo?.token) {
